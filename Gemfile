@@ -34,6 +34,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'cucumber-rails', require: false
   gem "shoulda-matchers"
+  gem 'factory_bot_rails'
 end
 
 group :development do
