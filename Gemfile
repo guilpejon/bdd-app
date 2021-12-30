@@ -35,7 +35,7 @@ group :development, :test do
   gem 'email_spec'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem "shoulda-matchers"
   gem 'factory_bot_rails'
